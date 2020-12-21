@@ -42,6 +42,7 @@ namespace LandmarkAI
             }
         }
 
+        //custom vision refuses our request, so can't do anything with this at the moment. Not gonna take the time to really debug it.
         private async void MakePredictionAsync(string fileName)
         {
             string url = "https://eastus.api.cognitive.microsoft.com/customvision/v3.0/Prediction/66169007-0577-47e1-898f-fb07b3398e81/classify/iterations/LandmarkAI/image";
