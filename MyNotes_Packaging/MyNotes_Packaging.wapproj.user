@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Colin\Pictures\memes\sad green man.jpg</Source>
+    <SmallTileSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</SmallTileSource>
+    <MediumTileSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</MediumTileSource>
+    <WideTileSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</WideTileSource>
+    <LargeTileSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</LargeTileSource>
+    <AppIconSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</AppIconSource>
+    <SplashScreenSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Colin\Pictures\memes\sad green man.jpg</PackageLogoSource>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-SH1R8SN</Machine>
+    <WindowsUser>Colin</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9b3f3518-a3dc-4887-94c4-a2dada15b144</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Colin</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\obj\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\bin\AnyCPU\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\bin\AnyCPU\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes_Packaging\bin\AnyCPU\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes\obj\Release\netcoreapp3.1\Msix\MyNotes.deps.json">
+      <PackagePath>MyNotes\MyNotes.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes\obj\Release\netcoreapp3.1\MyNotes.dll">
+      <PackagePath>MyNotes\MyNotes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes\bin\Release\netcoreapp3.1\MyNotes.runtimeconfig.json">
+      <PackagePath>MyNotes\MyNotes.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll">
+      <PackagePath>MyNotes\Microsoft.CognitiveServices.Speech.csharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.19\lib\netcoreapp3.0\Microsoft.Xaml.Behaviors.dll">
+      <PackagePath>MyNotes\Microsoft.Xaml.Behaviors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>MyNotes\Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlite-net-pcl\1.7.335\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>MyNotes\SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.bundle_green\2.0.3\lib\netcoreapp3.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>MyNotes\SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.bundle_green\2.0.3\lib\netcoreapp3.0\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>MyNotes\SQLitePCLRaw.nativelibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.core\2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>MyNotes\SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.0.3\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>MyNotes\SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll">
+      <PackagePath>MyNotes\runtimes\linux-arm\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.core.so">
+      <PackagePath>MyNotes\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.core.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so">
+      <PackagePath>MyNotes\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <PackagePath>MyNotes\runtimes\linux-arm\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll">
+      <PackagePath>MyNotes\runtimes\linux-arm64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so">
+      <PackagePath>MyNotes\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.core.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so">
+      <PackagePath>MyNotes\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <PackagePath>MyNotes\runtimes\linux-arm64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll">
+      <PackagePath>MyNotes\runtimes\linux-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.core.so">
+      <PackagePath>MyNotes\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.core.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so">
+      <PackagePath>MyNotes\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.codec.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so">
+      <PackagePath>MyNotes\runtimes\linux-x64\native\libMicrosoft.CognitiveServices.Speech.extension.kws.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\osx-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll">
+      <PackagePath>MyNotes\runtimes\osx-x64\lib\netstandard2.0\Microsoft.CognitiveServices.Speech.csharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\osx-x64\native\libMicrosoft.CognitiveServices.Speech.core.dylib">
+      <PackagePath>MyNotes\runtimes\osx-x64\native\libMicrosoft.CognitiveServices.Speech.core.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.core.dll">
+      <PackagePath>MyNotes\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.codec.dll">
+      <PackagePath>MyNotes\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.codec.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll">
+      <PackagePath>MyNotes\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.kws.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll">
+      <PackagePath>MyNotes\runtimes\win-x64\native\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.core.dll">
+      <PackagePath>MyNotes\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.codec.dll">
+      <PackagePath>MyNotes\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.codec.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.dll">
+      <PackagePath>MyNotes\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.kws.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\microsoft.cognitiveservices.speech\1.14.0\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll">
+      <PackagePath>MyNotes\runtimes\win-x86\native\Microsoft.CognitiveServices.Speech.extension.silk_codec.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\alpine-x64\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\alpine-x64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\linux-arm\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\linux-arm\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\linux-arm64\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\linux-arm64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\linux-armel\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\linux-armel\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\linux-musl-x64\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\linux-musl-x64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\linux-x64\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\linux-x64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\linux-x86\native\libe_sqlite3.so">
+      <PackagePath>MyNotes\runtimes\linux-x86\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\osx-x64\native\libe_sqlite3.dylib">
+      <PackagePath>MyNotes\runtimes\osx-x64\native\libe_sqlite3.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\win-arm\native\e_sqlite3.dll">
+      <PackagePath>MyNotes\runtimes\win-arm\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\win-arm64\native\e_sqlite3.dll">
+      <PackagePath>MyNotes\runtimes\win-arm64\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>MyNotes\runtimes\win-x64\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\win-x86\native\e_sqlite3.dll">
+      <PackagePath>MyNotes\runtimes\win-x86\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Colin\Desktop\Code\.net\MyNotes\obj\Release\netcoreapp3.1\MyNotes.exe">
+      <PackagePath>MyNotes\MyNotes.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
