@@ -26,7 +26,13 @@ namespace MyNotes.ViewModel.Commands
         {
             Notebook notebook = parameter as Notebook;
             if(notebook != null)
-                vm.StopEditing(notebook);
+                vm.StopEditingNotebook(notebook);
+            else
+            {
+                Note note = parameter as Note;
+                if (note != null)
+                    vm.StopEditingNote(note);
+            }
         }
     }
 }

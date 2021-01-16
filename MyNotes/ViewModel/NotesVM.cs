@@ -61,12 +61,14 @@ namespace MyNotes.ViewModel
         public NewNoteCommand NewNoteCommand { get; set; }
         public EditCommand EditCommand { get; set; }
         public EndEditingCommand EndEditCommand {get; set;}
+        public DeleteCommand DeleteCommand { get; set; }
         public NotesVM()
         {
             NewNotebookCommand = new NewNotebookCommand(this);
             NewNoteCommand = new NewNoteCommand(this);
             EditCommand = new EditCommand(this);
             EndEditCommand = new EndEditingCommand(this);
+            DeleteCommand = new DeleteCommand(this);
 
             Notebooks = new ObservableCollection<Notebook>();
             Notes = new ObservableCollection<Note>();
@@ -137,11 +139,31 @@ namespace MyNotes.ViewModel
             IsVisible = Visibility.Visible;
         }
 
-        public void StopEditing(Notebook notebook)
+        public void StopEditingNotebook(Notebook notebook)
         {
             IsVisible = Visibility.Collapsed;
             DatabaseHelper.Update(notebook);
             GetNotebooks();
         }
+
+        public void StopEditingNote(Note note)
+        {
+            IsVisible = Visibility.Collapsed;
+            DatabaseHelper.Update(note);
+            GetNotes();
+        }
+
+        public void DeleteNotebook(Notebook notebook)
+        {
+            DatabaseHelper.Delete(notebook);
+            GetNotebooks();
+        }
+
+        public void DeleteNote(Note note)
+        {
+            DatabaseHelper.Delete(note);
+            GetNotes();
+        }
+
     }
 }

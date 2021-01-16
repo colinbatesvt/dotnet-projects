@@ -8,7 +8,9 @@
         xmlns:uc="clr-namespace:MyNotes.View.UserControls"
         xmlns:vm="clr-namespace:MyNotes.ViewModel"
         mc:Ignorable="d"
-        Title="NotesWindow" Height="655" Width="928">
+        Title="Notes"
+        Icon="notes.ico"
+        Height="655" Width="928">
 
     <Window.Resources>
         <vm:NotesVM x:Key="vm"/>
@@ -43,6 +45,9 @@
                                 <ContextMenu>
                                     <MenuItem Header="Rename"
                                               Command="{Binding Source={StaticResource vm}, Path=EditCommand}"/>
+                                    <MenuItem Header="Delete"
+                                              Command="{Binding Source={StaticResource vm}, Path=DeleteCommand}"
+                                              CommandParameter="{Binding}"/>
                                 </ContextMenu>
                             </uc:DisplayNotebook.ContextMenu>
                         </uc:DisplayNotebook>
@@ -65,7 +70,28 @@
                   ItemsSource="{Binding Notes}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <uc:DisplayNote Note="{Binding}"/>
+                    <Grid>
+                        <uc:DisplayNote Note="{Binding}">
+                            <uc:DisplayNote.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="Rename"
+                                              Command="{Binding Source={StaticResource vm}, Path=EditCommand}"/>
+                                    <MenuItem Header="Delete"
+                                              Command="{Binding Source={StaticResource vm}, Path=DeleteCommand}"
+                                              CommandParameter="{Binding}"/>
+                                </ContextMenu>
+                            </uc:DisplayNote.ContextMenu>
+                        </uc:DisplayNote>
+                        <TextBox Visibility="{Binding Source={StaticResource vm}, Path=IsVisible}"
+                                 Text="{Binding Title}">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="LostFocus">
+                                    <i:InvokeCommandAction Command="{Binding Source={StaticResource vm}, Path=EndEditCommand}"
+                                                           CommandParameter="{Binding}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBox>
+                    </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
